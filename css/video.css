@@ -1,0 +1,104 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	/* 去掉链接下划线 */
+	text-decoration: none;
+	color: #000;
+}
+body{
+	background: rgba(0, 0, 0, 0.884);
+}
+/* 顶部导航 */
+.nav-top-layout{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.nav-top a{
+	width: 100px;
+	height: 30px;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 30px;
+	margin: 5px;
+	margin-right: 20px;
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3),
+	-6px -6px 6px rgba(255, 255, 255, 1);
+	transition: box-shadow .2s ease-out;
+	float: left;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav-top a:hover{
+	display: block;
+	color: #fff;
+	text-align: center;
+	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2),
+	0px 0px 0px rgba(255, 255, 255, 0.8),
+	inset 4px 6px 24px rgba(0, 0, 0, 0.1),
+	inset -4px -6px 24px rgba(255, 255, 255, 1);
+	/* 延缓点击效果 */
+	transition: box-shadow .2s ease-out;
+	background: linear-gradient(90deg, #e96f92, #75517d, #f7f7b6,  #1b2947, #e96f92);
+	background-size: 300%;
+}
+#web-top{
+	width: 100%;
+	background-color: #fff;
+	float: left;
+	padding: 10px 10px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index:999
+}
+.web-top-login{
+	/* float: right; */
+	position: relative;
+	left: 60%;
+	top: 0;
+}
+/* 视频 */
+/* video#bgvid {
+    position: fixed; 
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+} */
+.Video-table{
+	overflow: hidden;
+	margin: 80px auto;
+}
+video:hover,video:active,video:visited,video:link,video:focus{
+	/* -webkit-tap-highlight-color:rgba(0,0,0,0); */
+	/* -webkit-tap-highlight-color: transparent; */
+	outline:none;
+	/* background: none;*/
+	/* text-decoration: none; */
+}
+.layout{
+	/* border: 1px solid red; */
+	width: 1600px;
+	/* margin:0px auto; */
+	overflow: hidden;
+}
+.Video-table table{
+	width: 100%;
+}
+.Video-table th{
+	background-color: #75517d;
+	color: #fff;
+	padding: 10px;
+	border-radius: 50px;
+}
+.Video-table th:hover{
+	background: #ce8cdd;
+	box-shadow: 0 0 5px 0 #e96f92;
+	border-radius: 50px;
+	text-shadow: 0 0 5px #e96f92;
+}
